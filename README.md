@@ -8,4 +8,4 @@ Caso queira executar um exercício, basta executar como segue:
 
 - Entrar na pasta do exercício
 - ``` npm install ```
-- ``` node node_do_exercicio.js ```
+- ``` node nome_do_exercicio.js ```
