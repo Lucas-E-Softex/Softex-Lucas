@@ -21,6 +21,8 @@ const number = prompt('Enter an integer number: ')
 
 //turns prompt to number
 let transfNumber = Number(number)
+
+//check if transfNumber is a number, if it's integer and if it's grater than zero
 if(!transfNumber || !Number.isInteger(transfNumber) || transfNumber <= 0){
   while(!transfNumber || !Number.isInteger(transfNumber)  || transfNumber <= 0){
     newNumber = prompt('Enter a positive integer number: ')
