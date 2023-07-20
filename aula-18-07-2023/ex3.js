@@ -16,8 +16,10 @@ function isPrime(num){
   return true
 }
 
+
 const number = prompt('Enter an integer number: ')
 
+//turns prompt to number
 let transfNumber = Number(number)
 if(!transfNumber || !Number.isInteger(transfNumber) || transfNumber <= 0){
   while(!transfNumber || !Number.isInteger(transfNumber)  || transfNumber <= 0){
