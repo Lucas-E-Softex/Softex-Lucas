@@ -2,11 +2,15 @@ const prompt = require('prompt-sync')()
 
 
 
-const limite = prompt('Digite o limite para gerar os números: ')
-const limiteConv = Number(limite)
+let limite = prompt('Digite o limite para gerar os números: ')
+let limiteConv = Number(limite)
 let randNumber = 0
 if(isNaN(limiteConv)){
     console.log('O limite deve ser um número')
+    while(isNaN(limiteConv){
+        limite = prompt('Entre um número: ');
+        limiteConv = Number(limite)
+    }
 }else{
     randNumber = Math.floor(Math.random() * limiteConv) + 1
 }
