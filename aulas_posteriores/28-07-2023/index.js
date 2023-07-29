@@ -1,17 +1,12 @@
 import { gerarEmpresas } from "./gerar-empresas.js";
-
 let biggestBuy = {
     id: '',
     data: '',
     valor: Number.MIN_SAFE_INTEGER,
     status: ''
 }
-
 let biggestBuyCompany = {}
-
 let biggestBuyList = []
-
-let buyValueList = []
 
 const empresas = gerarEmpresas(10000)
 empresas.forEach((empresa) => {
