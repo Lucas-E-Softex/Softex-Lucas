@@ -30,4 +30,4 @@ console.log(biggestBuy)
 
 
 console.log('\n')
-console.log(`Existe um total de ${biggestBuyList.length} pedidos com o mesmo preço do maior pedido`)
+console.log(`Existe um total de ${biggestBuyList.length} pedidos com o mesmo preço do maior pedido em outras empresas`)
