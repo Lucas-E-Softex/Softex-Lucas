@@ -6,6 +6,6 @@ class Conta{
   }
 }
 
-const conta1 = new Conta('Lucas', 001)
+const conta1 = new Conta('Lucas', '001')
 
 console.log(conta1.numero)
